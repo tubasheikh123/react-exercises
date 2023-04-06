@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 const Header = (props) => {
     // State hook to set theme
-    const [theme, setTheme] = useState( { name: 'light', style: {} } );
+    const [theme, setTheme] = useState( { name: 'light', style: {backgroundColor:'white'} } );
 
     // Click handler
     function themeHandler() {
